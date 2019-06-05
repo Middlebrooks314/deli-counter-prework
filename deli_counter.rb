@@ -15,7 +15,10 @@ katz_deli = []
 
 
 
-## function takeANumber (currentLine, newName) {
+
+=begin 
+
+function takeANumber (currentLine, newName) {
   currentLine.push(newName);
   return `Welcome, ${newName}. You are number ${currentLine.length} in line.`
 }
@@ -29,3 +32,4 @@ function nowServing (katzDeliLine) {
   else 
   return `Currently serving ${katzDeliLine.unshift()}`; 
 }
+ =end
